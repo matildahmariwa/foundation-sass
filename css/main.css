@@ -1,0 +1,214 @@
+.container__top__description button, .container__form button {
+  background-color: turquoise;
+  width: 125px;
+  height: 45px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #40e0d0;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  margin-top: 380px;
+  margin-left: 61px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.container__top {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__top__photo {
+  width: 60%;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  position: relative;
+}
+
+.container__top__photo img {
+  height: 100%;
+  width: 100%;
+}
+
+.container__top__photo p, .container__top__photo h1 {
+  position: absolute;
+  top: 30%;
+  left: 53%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.container__top__photo h1 {
+  top: 40%;
+  font-size: 70px;
+  color: white;
+}
+
+.container__top__description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.container__top__description nav ul {
+  list-style: none;
+}
+
+.container__top__description nav ul li {
+  display: inline;
+  font-size: 20px;
+  margin-right: 20px;
+  letter-spacing: 3.5px;
+}
+
+.container__top__description nav ul li a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.container__top__description p, .container__top__description .container__top__photo h1, .container__top__photo .container__top__description h1 {
+  margin-top: 220px;
+  position: absolute;
+  padding-left: 38px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.container__top section li i {
+  font-size: 20px;
+  color: yellowgreen;
+}
+
+.container__form {
+  margin-top: 30px;
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__form h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container__form__textbox input {
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 18px;
+  width: 90%;
+  float: left;
+  margin: 0 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+
+.container__form__textbox textarea {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.container__form table {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid black;
+  margin-left: -50px;
+  margin-right: 20px;
+}
+
+.container__form table td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.container__form table th {
+  border: 1px solid black;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.container__form form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  float: right;
+  -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.container__form button {
+  margin-top: 30px;
+}
+
+.container .container__watch__info1, .container .container__watch__info2, .container .container__watch__youtube {
+  height: 294px;
+  width: 50px;
+  margin-right: 10px;
+  -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.container__watch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__watch span {
+  font-size: 50px;
+  padding-left: 150px;
+  color: #40e0d0;
+}
+
+.container__watch h3 {
+  padding-left: 120px;
+}
+
+.container__watch p, .container__watch .container__top__photo h1, .container__top__photo .container__watch h1 {
+  padding: 15px;
+}
+
+.container__watch__info1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container__watch__info2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container__watch__youtube {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container h6 {
+  font-size: 30px;
+  margin-left: 400px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */
